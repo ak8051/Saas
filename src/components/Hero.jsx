@@ -7,14 +7,14 @@ const Hero = () => {
       <>
         <div className="container mx-auto columns-3xs mt-24 flex flex-wrap items-center justify-center gap-24">
           <div className="max-w-[462px]">
-            <div className="text-7xl font-bold mb-7 mx-auto sm:text-center lg:text-start">
+            <div className="text-6xl font-bold mb-7 mx-auto text-center md:text-start">
               Grow your<br></br>subscription<br></br>business
             </div>
-            <div className="text-xl font-normal mb-12 sm:text-center lg:text-start">
+            <div className="text-xl font-normal mb-12 text-center md:text-start">
               Outcome-centered products that reduce churn,<br></br> optimize
               pricing, and grow your subscription<br></br> business end-to-end.
             </div>
-            <div className="sm:text-center lg:text-start">
+            <div className="text-center md:text-start">
               <Button bcolor="bg-violet-800" hcolor="bg-violet-950" />
             </div>
           </div>
